@@ -1,5 +1,6 @@
-alert("This a an Alert Message to User");
-
-prompt("Please Enter Your Name: ")
-
-confirm("Are You Sure: ")
+let a = confirm("Do you play valorant:");
+if (a) {
+  alert("wElcOmE To Mens CLUB");
+} else {
+  alert("get lost gay");
+}

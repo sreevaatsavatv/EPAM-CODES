@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        div.page {
+            padding: 20px;
+            display: none;
+            min-height: 80vh;
+        }
+        :target {
+            display: block;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Website Title</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div id="home" class="page">
+        <h2>Home</h2>
+        <p>Content from content.txt</p>
+    </div>
+    
+    <div id="about" class="page">
+        <h2>About</h2>
+        <p>Content from content.txt</p>
+    </div>
+    
+    <div id="services" class="page">
+        <h2>Services</h2>
+        <p>Content from content.txt</p>
+    </div>
+    
+    <div id="contact" class="page">
+        <h2>Contact</h2>
+        <p>Content from content.txt</p>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Your Website</p>
+    </footer>
+</body>
+</html>
